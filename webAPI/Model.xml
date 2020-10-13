@@ -1,0 +1,975 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Model</name>
+    </assembly>
+    <members>
+        <member name="T:Model.Input.ColumnInfo">
+            <summary>
+            列对象
+            </summary>
+        </member>
+        <member name="P:Model.Input.ColumnInfo.ColumnName">
+            <summary>
+            列名
+            </summary>
+        </member>
+        <member name="P:Model.Input.ColumnInfo.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:Model.Input.TestInfo">
+            <summary>
+            测试对象信息
+            </summary>
+        </member>
+        <member name="P:Model.Input.TestInfo.ID">
+            <summary>
+            单据的id
+            </summary>
+        </member>
+        <member name="P:Model.Input.TestInfo.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Model.Input.TestInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.BillNoInfo.BillType">
+            <summary>
+            订单类型
+            </summary>
+        </member>
+        <member name="P:Model.Models.BillNoInfo.BillNO">
+            <summary>
+            订单编号
+            </summary>
+        </member>
+        <member name="T:Model.Models.ChargeTrsInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.ChargeTrsInfo.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.ChargeTrsInfo.UserID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.ChargeTrsInfo.Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.ChargeTrsInfo.PaidType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.ChargeTrsInfo.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.ChargeTrsInfo.Memo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Model.Models.CouponInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.CouponInfo.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.CouponInfo.Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.CouponInfo.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.CouponInfo.Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.CouponInfo.IsLocked">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Model.Models.CustomersSuppliersInfo">
+            <summary>
+            客户供应商
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.Name">
+            <summary>
+            客户供应商名称
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.Type">
+            <summary>
+            类型  C客户   S供应商
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.PersonName">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.PersonPhone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.QQ">
+            <summary>
+            QQ
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.WeiXin">
+            <summary>
+            微信
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.Addreass">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.Tag">
+            <summary>
+            标记
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.Credit">
+            <summary>
+            信用度
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.Memo">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.CreaterCode">
+            <summary>
+            创建人编码
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.CreaterName">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.CustomersSuppliersInfo.UpdateTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Model.Models.FollowUpRecordInfo">
+            <summary>
+            跟进记录
+            </summary>
+        </member>
+        <member name="P:Model.Models.FollowUpRecordInfo.CustomersSuppliersID">
+            <summary>
+            客户供应商ID
+            </summary>
+        </member>
+        <member name="P:Model.Models.FollowUpRecordInfo.Content">
+            <summary>
+            跟进内容
+            </summary>
+        </member>
+        <member name="P:Model.Models.FollowUpRecordInfo.FollowUpPerson">
+            <summary>
+            跟进人
+            </summary>
+        </member>
+        <member name="P:Model.Models.FollowUpRecordInfo.FollowUpTime">
+            <summary>
+            跟进时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.FollowUpRecordInfo.CreaterCode">
+            <summary>
+            创建人编码
+            </summary>
+        </member>
+        <member name="P:Model.Models.FollowUpRecordInfo.CreaterName">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Model.Models.FollowUpRecordInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.FollowUpRecordInfo.UpdateTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Model.Models.OrderInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.UserID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.UpdateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.GoodDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.GoodType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.DeliverType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.DeliverNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ReceiveAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.Weight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.Size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.Warehouse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ShipType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ShipNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ShipAmount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.DiscAmount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.Memo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.IsReceived">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ReceivedTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.IsApproved">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ApprovedTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.IsPaid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.PaidTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.IsShipped">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ShippedTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.IsClosed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.ClosedTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfo.Remark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Model.Models.OrderInfoBase">
+            <summary>
+            订单信息的基类
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.OrderNO">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.OrderType">
+            <summary>
+            订单类型 SO PO
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.CompanyCode">
+            <summary>
+            客户供应商编码
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.CompanyName">
+            <summary>
+            客户供应商名称
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.PersonName">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.PersonPhone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.Addreass">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.TotalMoney">
+            <summary>
+            总价
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.Memo">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.CourierNumber">
+            <summary>
+            快递单号
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.OrderDate">
+            <summary>
+            订单发货收货日期
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.IsPay">
+            <summary>
+            是否付款
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.IsInvoice">
+            <summary>
+            是否开票
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.CreaterCode">
+            <summary>
+            创建人编码
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.CreaterName">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.WarrantyTime">
+            <summary>
+            保修时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.OrderInfoBase.UpdateTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Model.Models.PaymentTrsInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.PaymentTrsInfo.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.PaymentTrsInfo.OrderID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.PaymentTrsInfo.Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.PaymentTrsInfo.PaidAmount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.PaymentTrsInfo.PaidType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.PaymentTrsInfo.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.PaymentTrsInfo.Memo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Model.Models.RoleInfo">
+            <summary>
+            角色信息
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleInfo.Name">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleInfo.Memo">
+            <summary>
+            角色描述
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleInfo.CreaterCode">
+            <summary>
+            创建人编码
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleInfo.CreaterName">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleInfo.UpdateTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Model.Models.UserInfo">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.ID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.Name">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.Age">
+            <summary>
+            用户年龄
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.PersonPhone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.IsIncumbency">
+            <summary>
+            是否在职
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.LastLoginIP">
+            <summary>
+            最后一次登录IP地址
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.LastLoginTime">
+            <summary>
+            最后一次登录时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.Memo">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.CreaterCode">
+            <summary>
+            创建人编码
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.CreaterName">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserInfo.UpdateTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Model.Models.WarehouseInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WarehouseInfo.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WarehouseInfo.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WarehouseInfo.ReceiveAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WarehouseInfo.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WarehouseInfo.IsLocked">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Model.Models.WareInfo">
+            <summary>
+            商品
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.ID">
+            <summary>
+            商品ID
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.WareID">
+            <summary>
+            商品ID
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.OrderID">
+            <summary>
+            订单ID
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.Name">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.PN">
+            <summary>
+            商品PN
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.SN">
+            <summary>
+            商品SN
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.WarrantyTime">
+            <summary>
+            商品保修期
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.Price">
+            <summary>
+            商品单价
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.Quantity">
+            <summary>
+            商品数量
+            </summary>
+        </member>
+        <member name="P:Model.Models.WareInfo.TotalMoney">
+            <summary>
+            商品总价
+            </summary>
+        </member>
+        <member name="T:Model.Models.WebUserInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.LoginName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.Pwd">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.Memo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.UserType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.WeChat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.ReceiveAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.Balance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.LastLoginIP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.LastLoginTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Models.WebUserInfo.IsLocked">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Model.Out.Out_LoginUserInfo.ID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Model.Out.Out_LoginUserInfo.Name">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:Model.Out.Out_LoginUserInfo.Age">
+            <summary>
+            用户年龄
+            </summary>
+        </member>
+        <member name="T:Model.Search.BuyOrderSearch">
+            <summary>
+            采购订单查询参数类
+            </summary>
+        </member>
+        <member name="P:Model.Search.BuyOrderSearch.OrderNO">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:Model.Search.BuyOrderSearch.CompanyName">
+            <summary>
+            客户供应商名称
+            </summary>
+        </member>
+        <member name="P:Model.Search.BuyOrderSearch.PersonName">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Model.Search.BuyOrderSearch.CourierNumber">
+            <summary>
+            快递单号
+            </summary>
+        </member>
+        <member name="P:Model.Search.BuyOrderSearch.IsPay">
+            <summary>
+            是否付款
+            </summary>
+        </member>
+        <member name="P:Model.Search.BuyOrderSearch.IsInvoice">
+            <summary>
+            是否开票
+            </summary>
+        </member>
+        <member name="P:Model.Search.BuyOrderSearch.OrderType">
+            <summary>
+            订单类型 PO采购  SO销售
+            </summary>
+        </member>
+        <member name="T:Model.Search.CustomersSuppliersSearch">
+            <summary>
+            客户供应商查询参数类
+            </summary>
+        </member>
+        <member name="P:Model.Search.CustomersSuppliersSearch.Name">
+            <summary>
+            客户供应商名称
+            </summary>
+        </member>
+        <member name="P:Model.Search.CustomersSuppliersSearch.Type">
+            <summary>
+            类型  C客户   S供应商
+            </summary>
+        </member>
+        <member name="P:Model.Search.CustomersSuppliersSearch.PersonName">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Model.Search.CustomersSuppliersSearch.PersonPhone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:Model.Search.CustomersSuppliersSearch.QQ">
+            <summary>
+            QQ
+            </summary>
+        </member>
+        <member name="P:Model.Search.CustomersSuppliersSearch.WeiXin">
+            <summary>
+            微信
+            </summary>
+        </member>
+        <member name="T:Model.UtilConvert">
+            <summary>
+            转换静态类
+            </summary>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToInt(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToInt(System.Object,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToMoney(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToMoney(System.Object,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToString(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToString(System.Object,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToDecimal(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToDecimal(System.Object,System.Decimal)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToDate(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToDate(System.Object,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToBool(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

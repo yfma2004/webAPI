@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webAPI</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:webAPI.AuthHelp.TokenAuth" -->
+        <!-- Badly formed XML comment ignored for member "F:webAPI.AuthHelp.TokenAuth._next" -->
+        <!-- Badly formed XML comment ignored for member "M:webAPI.AuthHelp.TokenAuth.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)" -->
+        <!-- Badly formed XML comment ignored for member "M:webAPI.AuthHelp.TokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)" -->
+        <member name="M:webAPI.Controllers.AbandonedMobileController.Get(System.String,System.String)">
+            <summary>
+            根据手机号获取信息
+            </summary>
+            <param name="projectName">项目名</param> 
+            <param name="mobileNum">账号</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.AbandonedMobileController.Add(Model.Input.AbandonedMobile)">
+            <summary>
+            添加手机号信息
+            </summary>
+            <param name="info">对象信息</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.BuyOrdreInfoController.GetList(Model.Search.SearchBase{Model.Search.BuyOrderSearch})">
+            <summary>
+            查询订单
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.BuyOrdreInfoController.Add(Model.Input.InOrderInfo)">
+            <summary>
+            添加订单
+            </summary>
+            <param name="info">订单信息</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.BuyOrdreInfoController.Delete(System.Object[])">
+            <summary>
+            删除订单
+            </summary>
+            <param name="ids">订单id集合</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.BuyOrdreInfoController.SetIsPay(System.Object[])">
+            <summary>
+            标识订单已付款
+            </summary>
+            <param name="ids">订单id集合</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.BuyOrdreInfoController.SetIsInvoice(System.Object[])">
+            <summary>
+            标识订单已付款
+            </summary>
+            <param name="ids">订单id集合</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.BuyOrdreInfoController.GetBuyOrderInfo(Model.Search.SearchBase{System.String})">
+            <summary>
+            获取订单信息
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.ChartsController.GetOrderSituation(Model.Search.SearchBase{Model.Search.BuyOrderSearch})">
+            <summary>
+            获取订单情况
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.ChartsController.GetSaleWareSituation(Model.Search.SearchBase{Model.Search.BuyOrderSearch})">
+            <summary>
+            获取销售商品分布情况
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.CustomersSuppliersInfoController.GetList(Model.Search.SearchBase{Model.Search.CustomersSuppliersSearch})">
+            <summary>
+            查询客户供应商
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.CustomersSuppliersInfoController.Add(Model.Models.CustomersSuppliersInfo)">
+            <summary>
+            添加客户供应商
+            </summary>
+            <param name="info">客户供应商信息</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.CustomersSuppliersInfoController.Delete(System.Object[])">
+            <summary>
+            删除客户供应商
+            </summary>
+            <param name="ids">客户供应商id集合</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.CustomersSuppliersInfoController.GetCustomersSuppliersInfo(Model.Search.SearchBase{System.String})">
+            <summary>
+            获取客户供应商信息
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.EmailController.GetEmailContent(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            获取邮箱内容
+            </summary>
+            <param name="userName">邮箱账号</param>
+            <param name="pwd">邮箱密码</param>
+            <param name="keyWords">邮箱内容关键字</param>
+            <param name="tryCount">获取超时次数，1秒1次</param>
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.FollowUpRecordInfoController.GetListByCustomersSuppliersID(Model.Search.SearchBase{System.Int32})">
+            <summary>
+            查询客户供应商跟进记录
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.FollowUpRecordInfoController.Add(Model.Models.FollowUpRecordInfo)">
+            <summary>
+            添加客户供应商跟进记录
+            </summary>
+            <param name="info">客户供应商跟进记录信息</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.FollowUpRecordInfoController.Delete(System.Object[])">
+            <summary>
+            删除客户供应商跟进记录
+            </summary>
+            <param name="ids">客户供应商id集合</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.FollowUpRecordInfoController.GetFollowUpRecordInfo(Model.Search.SearchBase{System.String})">
+            <summary>
+            获取客户供应商跟进记录
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.MobileInfoController.Get(System.String,System.String,System.String)">
+            <summary>
+            根据手机号获取信息
+            </summary>
+            <param name="clientName">客户端</param>      
+            <param name="projectName">项目名</param>      
+            <param name="mobileNum">账号</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.MobileInfoController.CheckIsMyMobile(System.String,System.String,System.String)">
+            <summary>
+            检查是否自己手机号
+            </summary>
+            <param name="clientName">客户端</param>    
+            <param name="projectName">项目名</param>  
+            <param name="mobileNum">手机号</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.MobileInfoController.GetInfoByStatusAndUpdateDoing(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            根据某种状态获取手机号并且修改为占用
+            </summary>
+            <param name="clientName">客户端</param>   
+            <param name="projectName">项目名</param>   
+            <param name="status">当前状态</param>   
+            <param name="isUseNextOperationTime">是否使用下一次操作时间</param>   
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.MobileInfoController.GetInfoByLessThanInviteCountAndUpdateDoing(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            根据小于分享次数获取手机号并且修改为占用
+            </summary>
+            <param name="clientName">客户端</param>   
+            <param name="projectName">项目名</param>   
+            <param name="inviteCount">分享次数最大值（不包含）</param>          
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.MobileInfoController.UpdateInfoByMobile(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            根据项目名和号码修改多个字段
+            </summary>  
+            <param name="valueDir">键值对，必须包含ClientName，ProjectName和MobileNum</param>             
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.MobileInfoController.Add(Model.Input.MobileInfo)">
+            <summary>
+            添加手机号信息
+            </summary>
+            <param name="info">对象信息</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.OrderController.List(Model.Search.SearchBase{Model.Models.OrderInfo})">
+            <summary>
+            查询订单
+            </summary>
+            <param name="searchInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.OrderController.Add(Model.Models.OrderInfo)">
+            <summary>
+            添加订单
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.RoleInfoController.GetList(Model.Search.SearchBase{Model.Search.CustomersSuppliersSearch})">
+            <summary>
+            查询角色
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.RoleInfoController.Add(Model.Input.InRoleInfo)">
+            <summary>
+            添加角色
+            </summary>
+            <param name="info">角色信息</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.RoleInfoController.Delete(System.Object[])">
+            <summary>
+            删除角色
+            </summary>
+            <param name="ids">角色id集合</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.RoleInfoController.GetRoleInfo(Model.Search.SearchBase{System.String})">
+            <summary>
+            获取角色信息
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.TestController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.TestController.Post(Model.Models.UserInfo)">
+            <summary>
+            添加用户信息
+            </summary>
+            <param name="userInfo">jsong格式的用户信息对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.UserInfoController.Login(Model.Models.UserInfo)">
+            <summary>
+            登录
+            </summary>
+            <param name="account">账号</param> 
+            <param name="pwd">密码</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.UserInfoController.GetList(Model.Search.SearchBase{Model.Models.UserInfo})">
+            <summary>
+            查询角色
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.UserInfoController.Add(Model.Models.UserInfo)">
+            <summary>
+            添加角色
+            </summary>
+            <param name="info">角色信息</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.UserInfoController.Delete(System.Object[])">
+            <summary>
+            删除角色
+            </summary>
+            <param name="ids">角色id集合</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.UserInfoController.GetInfo(Model.Search.SearchBase{System.String})">
+            <summary>
+            获取角色信息
+            </summary>
+            <param name="searchInfo">查询条件</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.UserInfoController.UpdatePwd(Model.Input.InUpdatePwdInfo)">
+            <summary>
+            当前用户修改密码，需要原始密码
+            </summary>
+            <param name="info">修改密码信息</param>                 
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.UserInfoController.UpdatePwdByAdmin(Model.Input.InUpdatePwdInfo)">
+            <summary>
+            管理修改密码，不需要原始密码
+            </summary>
+            <param name="info">修改密码相关信息</param>         
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.WebUserController.Login(Model.Models.WebUserInfo)">
+            <summary>
+            登录
+            </summary>
+            <param name="account">账号</param> 
+            <param name="pwd">密码</param>      
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.WebUserController.Register(Model.Models.WebUserInfo)">
+            <summary>
+            注册用户
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Controllers.WebUserController.FindPwd(Model.Models.WebUserInfo)">
+            <summary>
+            找回密码
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.ExceptionHandlerMiddleWare.Object2XmlString(System.Object)">
+            <summary>
+            对象转为Xml
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="configuration"></param>
+        </member>
+    </members>
+</doc>
